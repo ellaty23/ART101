@@ -1,0 +1,19 @@
+p {color: blue; font-size: large; font-weight: bold; }
+
+p strong {font-weight: normal;}
+
+li {text-align: center; }
+
+html {font-family: Arial, Helvetica, sans-serif; background-color: pink;}
+
+.highlight_01 {background-color: azure;}
+
+.highlight_02 {background-color: orange;}
+
+.highlight_03 {background-color: yellow;}
+
+#pink-huge {width: 150px}
+
+#pink-medium {width: 99px}
+
+#pink-small {width: 50px}
