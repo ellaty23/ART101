@@ -1,0 +1,195 @@
+body {
+    background-image: url(twilight-zone.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-section {
+    max-width: 450px;
+    gap: 30px;
+    text-align: center;
+    margin: 50px auto 50px auto;
+    padding: 25px;
+    border-radius: 50px;
+    background-color: cornflowerblue;
+}
+
+.button-menu {
+    max-width: 450px;
+    gap: 30px;
+    text-align: center;
+    margin: 50px auto 50px auto;
+    padding: 25px;
+    border-radius: 50px;
+    background-color: cornflowerblue;
+}
+
+#title,
+#main-entity,
+#conditions,
+#percent,
+#depth {
+    max-width: 100px;
+    gap: 30px;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    padding: auto;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-size: 14px;
+    font-family: "Chiron GoRound TC";
+}
+
+#title:hover,
+#main-entity:hover,
+#conditions:hover,
+#percent:hover,
+#depth:hover,
+#bioluminescence-button:hover {
+    background-color: white;
+    color: blue;
+}
+
+.main-section {
+    display: flex;
+    gap: 10px;
+}
+
+.top-section p {
+    font-size: 20px;
+}
+
+h1,
+h2 {
+    font-family: "Freckle Face";
+    color: white;
+}
+
+h3 {
+    font-family: "Freckle Face";
+    color: blue;
+    font-size: 25px;
+}
+
+p {
+    font-family: "Chiron GoRound TC";
+    font-size: 16px;
+    color: white;
+    line-height: 1.5;
+}
+
+li {
+    font-family: "Chiron GoRound TC";
+    font-size: 16px;
+    color: white;
+    line-height: 1.5;
+    text-align: left;
+    margin-left: 125px;
+}
+
+.highlight_01 {
+    background-color: blue;
+}
+
+.highlight_02 {
+    background-color: aquamarine;
+}
+
+#light {
+    max-width: 150px;
+    gap: 30px;
+    text-align: center;
+    margin: 50px auto 50px auto;
+    padding: 25px;
+    border-radius: 50px;
+    background-color: cornflowerblue;
+}
+
+#bioluminescence-button {
+    max-width: 100px;
+    gap: auto;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    padding: auto;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-size: 14px;
+    font-family: "Chiron GoRound TC";
+}
+
+#output {
+    font-family: "Chiron GoRound TC";
+    font-size: 16px;
+    color: white;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+#lanternfish {
+    margin: 400px auto 0 auto;
+    opacity: 0.1;
+}
+
+.lanternfish {
+    max-width: 350px;
+    gap: 30px;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    padding: 25px;
+    border-radius: 50px;
+    background-color: rgba(100, 148, 237, 0.489);
+}
+
+#lanternfish img {
+    width: 500px;
+    margin-top: -40px;
+}
+
+#jellyfish {
+    margin: 100px auto 0 auto;
+    opacity: 0.1;
+}
+
+.jellyfish {
+    max-width: 350px;
+    gap: 30px;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    padding: 25px;
+    border-radius: 50px;
+    background-color: rgba(100, 148, 237, 0.489);
+}
+
+#jellyfish img {
+    width: 700px;
+    margin-top: 20px;
+}
+
+#comb-jelly {
+    margin: 400px auto 0 auto;
+    padding-right: 50px;
+    opacity: 0.1;
+}
+
+.comb-jelly {
+    max-width: 350px;
+    gap: 30px;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    padding: 25px;
+    border-radius: 50px;
+    background-color: rgba(100, 148, 237, 0.489);
+}
+
+#comb-jelly img {
+    width: 400px;
+    margin-top: 20px;
+}
+
+#coral {
+    display: flex;
+    margin: 50px 0 0 1000px;
+    opacity: 0.1;
+}
