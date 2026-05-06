@@ -1,9 +1,11 @@
+/* background */
 body {
     background-image: url(underwater-bg.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+/* top section */
 .top-section {
     max-width: 450px;
     gap: 30px;
@@ -14,6 +16,7 @@ body {
     background-color: aquamarine;
 }
 
+/* buttons */
 .button-menu {
     max-width: 450px;
     gap: 30px;
@@ -50,11 +53,13 @@ body {
     color: teal;
 }
 
+/* main section */
 .main-section {
     display: flex;
     gap: 30px
 }
 
+/* text */
 .top-section p {
     font-size: 20px;
 }
@@ -93,6 +98,7 @@ li {
     background-color: aquamarine;
 }
 
+/* sea lion */
 #sea-lion {
     margin: 100px auto 0 0
 }
@@ -111,6 +117,7 @@ li {
     width: 700px
 }
 
+/* sea turtle */
 #sea-turtle {
     margin: 400px 300px 0 0
 }
@@ -130,6 +137,7 @@ li {
     width: 500px
 }
 
+/* sea grass */
 #sea-grass {
     display: flex;
     margin: 0 0 0 650px;

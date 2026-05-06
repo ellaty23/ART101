@@ -12,6 +12,7 @@ let mainEntity = {
     favoriteElement: environmentElements[1]
 };
 
+// button menu functions
 $("#title").click(function () {
 
     let message = "<h3> Fun Facts </h3>";

@@ -13,6 +13,7 @@ let mainEntity = {
     favoriteElement: environmentElements[1]
 };
 
+// button menu functions
 $("#title").click(function () {
 
     let message = "<h3> Fun Facts </h3>";
@@ -82,6 +83,7 @@ $("#depth").click(function () {
 
 });
 
+// bioluminescence button function
 function askLight(light) {
     let userLight = prompt("Turn the lights on? Type yes or no.");
     if (userLight == light) {

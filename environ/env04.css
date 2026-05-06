@@ -1,9 +1,11 @@
+/* background */
 body {
     background-image: url(twilight-zone.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+/* top section */
 .top-section {
     max-width: 450px;
     gap: 30px;
@@ -14,6 +16,7 @@ body {
     background-color: cornflowerblue;
 }
 
+/* buttons */
 .button-menu {
     max-width: 450px;
     gap: 30px;
@@ -51,11 +54,13 @@ body {
     color: blue;
 }
 
+/* main section */
 .main-section {
     display: flex;
     gap: 10px;
 }
 
+/* text */
 .top-section p {
     font-size: 20px;
 }
@@ -96,6 +101,7 @@ li {
     background-color: aquamarine;
 }
 
+/* bioluminescence button */
 #light {
     max-width: 150px;
     gap: 30px;
@@ -127,6 +133,7 @@ li {
     margin-top: 10px;
 }
 
+/* lanternfish */
 #lanternfish {
     margin: 400px auto 0 auto;
     opacity: 0.1;
@@ -147,6 +154,7 @@ li {
     margin-top: -40px;
 }
 
+/* jellyfish */
 #jellyfish {
     margin: 100px auto 0 auto;
     opacity: 0.1;
@@ -167,6 +175,7 @@ li {
     margin-top: 20px;
 }
 
+/* comb jelly */
 #comb-jelly {
     margin: 400px auto 0 auto;
     padding-right: 50px;
@@ -188,6 +197,7 @@ li {
     margin-top: 20px;
 }
 
+/* coral */
 #coral {
     display: flex;
     margin: 50px 0 0 1000px;
