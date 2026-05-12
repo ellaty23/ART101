@@ -1,0 +1,240 @@
+/* background */
+body {
+    background-image: url(twilight-zone.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* top section */
+.top-section {
+    max-width: 450px;
+    gap: 30px;
+    text-align: center;
+    margin: 50px auto 50px auto;
+    padding: 25px;
+    border-radius: 50px;
+    background-color: cornflowerblue;
+}
+
+/* buttons */
+.button-menu {
+    max-width: 450px;
+    gap: 30px;
+    text-align: center;
+    margin: 50px auto 50px auto;
+    padding: 25px;
+    border-radius: 50px;
+    background-color: cornflowerblue;
+}
+
+#title,
+#main-entity,
+#conditions,
+#percent,
+#depth {
+    max-width: 100px;
+    gap: 30px;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    padding: auto;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-size: 14px;
+    font-family: "Chiron GoRound TC";
+}
+
+#title:hover,
+#main-entity:hover,
+#conditions:hover,
+#percent:hover,
+#depth:hover,
+#bioluminescence-button:hover {
+    background-color: white;
+    color: blue;
+}
+
+/* main section */
+.main-section {
+    display: flex;
+    gap: 10px;
+}
+
+/* text */
+.top-section p {
+    font-size: 20px;
+}
+
+h1,
+h2 {
+    font-family: "Freckle Face";
+    color: white;
+}
+
+h3 {
+    font-family: "Freckle Face";
+    color: blue;
+    font-size: 25px;
+}
+
+p {
+    font-family: "Chiron GoRound TC";
+    font-size: 16px;
+    color: white;
+    line-height: 1.5;
+}
+
+li {
+    font-family: "Chiron GoRound TC";
+    font-size: 16px;
+    color: white;
+    line-height: 1.5;
+    text-align: left;
+    margin-left: 125px;
+}
+
+.highlight_01 {
+    background-color: blue;
+}
+
+.highlight_02 {
+    background-color: aquamarine;
+}
+
+/* bioluminescence button */
+#light {
+    max-width: 150px;
+    gap: 30px;
+    text-align: center;
+    margin: 50px auto 50px auto;
+    padding: 25px;
+    border-radius: 50px;
+    background-color: cornflowerblue;
+}
+
+#bioluminescence-button {
+    max-width: 100px;
+    gap: auto;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    padding: auto;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-size: 14px;
+    font-family: "Chiron GoRound TC";
+}
+
+#output {
+    font-family: "Chiron GoRound TC";
+    font-size: 16px;
+    color: white;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+/* creature */
+#cuttlefish {
+    width: 500px;
+    position: absolute;
+    left: 1100px;
+    top: 500px;
+    margin: 0 auto 0 auto;
+    padding: 0;
+    gap: auto;
+    z-index: 3;
+}
+
+#thought {
+    display: none;
+    position: absolute;
+    left: 1350px;
+    top: 500px;
+    background-color: rgba(100, 148, 237, 0.489);
+    font-family: "Chiron GoRound TC";
+    font-size: 16px;
+    color: white;
+    line-height: 1.5;
+    text-align: center;
+    border-radius: 50px;
+    padding: 25px;
+    width: 150px;
+    z-index: 3;
+    pointer-events: none;
+}
+
+.ink {
+    filter: drop-shadow(50px 50px 10px rgb(163, 25, 255));
+    transform: scale(0.5) rotate(10deg);
+}
+
+/* lanternfish */
+#lanternfish {
+    margin: 400px auto 0 auto;
+    opacity: 0.1;
+}
+
+.lanternfish {
+    max-width: 350px;
+    gap: 30px;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    padding: 25px;
+    border-radius: 50px;
+    background-color: rgba(100, 148, 237, 0.489);
+}
+
+#lanternfish img {
+    width: 500px;
+    margin-top: -40px;
+}
+
+/* jellyfish */
+#jellyfish {
+    margin: 100px auto 0 auto;
+    opacity: 0.1;
+}
+
+.jellyfish {
+    max-width: 350px;
+    gap: 30px;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    padding: 25px;
+    border-radius: 50px;
+    background-color: rgba(100, 148, 237, 0.489);
+}
+
+#jellyfish img {
+    width: 700px;
+    margin-top: 20px;
+}
+
+/* comb jelly */
+#comb-jelly {
+    margin: 400px auto 0 auto;
+    padding-right: 50px;
+    opacity: 0.1;
+}
+
+.comb-jelly {
+    max-width: 350px;
+    gap: 30px;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    padding: 25px;
+    border-radius: 50px;
+    background-color: rgba(100, 148, 237, 0.489);
+}
+
+#comb-jelly img {
+    width: 400px;
+    margin-top: 20px;
+}
+
+/* coral */
+#coral {
+    display: flex;
+    margin: 50px 0 0 1000px;
+    opacity: 0.1;
+}
