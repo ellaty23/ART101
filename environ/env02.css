@@ -1,9 +1,11 @@
+/* background */
 body {
     background-image: url(underwater-bg.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+/* sections and container boxes */
 .top-section {
     max-width: 450px;
     gap: 30px;
@@ -19,14 +21,15 @@ body {
     gap: 30px
 }
 
-.top-section p {
-    font-size: 20px;
-}
-
+/* text settings */
 h1,
 h2 {
     font-family: "Freckle Face";
     color: white;
+}
+
+.top-section p {
+    font-size: 20px;
 }
 
 p {
@@ -43,11 +46,8 @@ p {
     background-color: aquamarine;
 }
 
-#sea-lion {
-    margin: 100px auto 0 0
-}
-
-.sea-lion {
+/* characters and container boxes */
+.animal {
     max-width: 350px;
     gap: 30px;
     text-align: center;
@@ -55,6 +55,10 @@ p {
     padding: 25px;
     border-radius: 50px;
     background-color: rgba(127, 255, 212, 0.502);
+}
+
+#sea-lion {
+    margin: 100px auto 0 0
 }
 
 #sea-lion img {
@@ -65,15 +69,6 @@ p {
     margin: 400px 300px 0 0
 }
 
-.sea-turtle {
-    max-width: 350px;
-    gap: 30px;
-    text-align: center;
-    margin: 0 auto 0 auto;
-    padding: 25px;
-    border-radius: 50px;
-    background-color: rgba(127, 255, 212, 0.502);
-}
 
 #sea-turtle img {
     transform: scaleX(-1);

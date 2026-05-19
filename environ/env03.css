@@ -5,7 +5,7 @@ body {
     background-size: cover;
 }
 
-/* top section */
+/* top section container box */
 .top-section {
     max-width: 450px;
     gap: 30px;
@@ -16,7 +16,7 @@ body {
     background-color: aquamarine;
 }
 
-/* buttons */
+/* buttons without hover */
 .button-menu {
     max-width: 450px;
     gap: 30px;
@@ -44,6 +44,7 @@ body {
     font-family: "Chiron GoRound TC";
 }
 
+/* buttons with hover */
 #title:hover,
 #main-entity:hover,
 #conditions:hover,
@@ -59,10 +60,7 @@ body {
     gap: 30px
 }
 
-/* text */
-.top-section p {
-    font-size: 20px;
-}
+/* text settings */
 
 h1,
 h2 {
@@ -74,6 +72,10 @@ h3 {
     font-family: "Freckle Face";
     color: teal;
     font-size: 25px;
+}
+
+.top-section p {
+    font-size: 20px;
 }
 
 p {
@@ -98,12 +100,12 @@ li {
     background-color: aquamarine;
 }
 
-/* sea lion */
+/* characters and container boxes */
 #sea-lion {
     margin: 100px auto 0 0
 }
 
-.sea-lion {
+.animal {
     max-width: 350px;
     gap: 30px;
     text-align: center;
@@ -117,19 +119,8 @@ li {
     width: 700px
 }
 
-/* sea turtle */
 #sea-turtle {
     margin: 400px 300px 0 0
-}
-
-.sea-turtle {
-    max-width: 350px;
-    gap: 30px;
-    text-align: center;
-    margin: 0 auto 0 auto;
-    padding: 25px;
-    border-radius: 50px;
-    background-color: rgba(127, 255, 212, 0.502);
 }
 
 #sea-turtle img {
@@ -137,7 +128,6 @@ li {
     width: 500px
 }
 
-/* sea grass */
 #sea-grass {
     display: flex;
     margin: 0 0 0 650px;

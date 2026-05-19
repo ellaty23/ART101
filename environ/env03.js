@@ -12,7 +12,7 @@ let mainEntity = {
     favoriteElement: environmentElements[1]
 };
 
-// button menu functions
+// title button
 $("#title").click(function () {
 
     let message = "<h3> Fun Facts </h3>";
@@ -23,6 +23,7 @@ $("#title").click(function () {
 
 });
 
+// main entity button
 $("#main-entity").click(function () {
 
     count = count + 1;
@@ -35,48 +36,47 @@ $("#main-entity").click(function () {
 
     let currentFav = environmentElements[arrayPosition];
 
-    message = "<h3> Main Entity </h3>";
-    message = message + "<p> My name is " + mainEntity.name + ". </p>";
-    message = message + "<p> I am a " + mainEntity.type + ". </p>";
-    message = message + "<p> My mood is " + mainEntity.mood + ". </p>";
-    message = message + "<p> Am I moving?: " + mainEntity.isMoving + ". </p>";
-    message = message + "<p> My favorite element is " + currentFav + ". </p>";
-    message = message + "<br></br>";
+    message = "<h3> Main Entity </h3>" +
+    "<p> My name is " + mainEntity.name + ". </p>" +
+    "<p> I am a " + mainEntity.type + ". </p>" +
+    "<p> My mood is " + mainEntity.mood + ". </p>" +
+    "<p> Am I moving?: " + mainEntity.isMoving + ". </p>" +
+    "<p> My favorite element is " + currentFav + ". </p>" + "<br></br>";
 
     $("#environment-output").html(message);
 
 });
 
+// conditions button
 $("#conditions").click(function () {
 
-    message = "<h3> Conditions </h3>";
-    message = message + "<p> The sunlight zone has: </p>";
-    message = message + "<li> Lots of light </li>";
-    message = message + "<li> Warmer temperatures </li>";
-    message = message + "<li> Higher oxygen levels </li>";
-    message = message + "<br></br>";
+    message = "<h3> Conditions </h3>" +
+    "<p> The sunlight zone has: </p>" +
+    "<li> Lots of light </li>" +
+    "<li> Warmer temperatures </li>" +
+    "<li> Higher oxygen levels </li>" + "<br></br>";
 
     $("#environment-output").html(message);
 
 });
 
+// percent button
 $("#percent").click(function () {
 
-    message = "<h3> How Much? </h3>";
-    message = message + "<p> The sunlight zone is 2-3% of the ocean. </p>";
-    message = message + "<br></br>";
+    message = "<h3> How Much? </h3>" +
+    "<p> The sunlight zone is 2-3% of the ocean. </p>" + "<br></br>";
 
     $("#environment-output").html(message);
 
 });
 
+// depth button
 $("#depth").click(function () {
 
     count = count + 1
 
-    message = "<h3> How Deep? </h3>";
-    message = message + "<p> The sunlight zone is " + count + " feet deep. </p>";
-    message = message + "<br></br>";
+    message = "<h3> How Deep? </h3>" +
+    "<p> The sunlight zone is " + count + " feet deep. </p>" + "<br></br>";
 
     $("#environment-output").html(message);
 
