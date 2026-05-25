@@ -1,6 +1,8 @@
 /* background */
 body {
-    background-color: darkcyan;
+    background-image: url(menu_screen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* top section */
@@ -35,6 +37,11 @@ body {
     color: green;
     font-size: 30px;
     font-family: "Alata";
+}
+
+#start:hover,
+#credits:hover {
+    color: white
 }
 
 .divider{
@@ -77,6 +84,7 @@ h1 {
     padding: 40px;
     border-radius: 50px;
     font-family: "Alata";
+    font-size: 20px;
     color: green;
 }
 
@@ -90,7 +98,7 @@ h1 {
 
 .close:hover,
 .close:focus {
-    color: black;
+    color: white;
     text-decoration: none;
     cursor: pointer;
 }
