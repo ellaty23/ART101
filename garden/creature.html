@@ -17,6 +17,11 @@
 
     <!-- jQuery library -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-database-compat.js"></script>
+
+    <!-- Link to external JavaScript file -->
+    <script src="firebase.js" DEFER></script>
 
     <!-- Link to external JavaScript file -->
     <script src="creature.js" DEFER></script>
@@ -27,7 +32,8 @@
 
     <!-- Main content goes here, inside BODY -->
 
-    <div id="emoji"></div> <h1> Creatures Garden </h1>
+    <div id="emoji"></div>
+    <h1> Creatures Garden </h1>
 
     <!-- Add creatures to the garden -->
 
@@ -39,6 +45,7 @@
         <div> Number of Eyes: <input type="number" id="crEyesNum" max="5" min="0" value="1"> </div>
         <div> <button id="crAdd"> Add Creature </button> </div>
         <div> <input type="checkbox" id="crRandom" value="yes"> <label for="crRandom">Randomize!</label> </div>
+        <div> <button id="btn-load">Load Creatures</button> </div>
 
     </div>
 

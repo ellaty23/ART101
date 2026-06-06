@@ -5,6 +5,32 @@ body {
     background-size: cover;
 }
 
+#menu {
+    z-index: 1
+}
+
+#game {
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw
+}
+
+.lineContainer {
+    display: flex;
+}
+
+#lineCreature {
+    z-index: 3;
+    top: 20px;
+    position: relative;
+}
+
+.line {
+    margin-right: 50px;
+}
+
 /* top section */
 .title {
     max-width: 700px;
@@ -44,10 +70,10 @@ body {
     color: white
 }
 
-.divider{
-    width:40px;
-    height:auto;
-    display:inline-block;
+.divider {
+    width: 40px;
+    height: auto;
+    display: inline-block;
 }
 
 h1 {

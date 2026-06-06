@@ -81,6 +81,27 @@ function addCreatureToDOM(creature) {
     $("#creature-list").append(html);
 }
 
+// function to load creatures from firebase
+function loadCreaturesFromDB() {
+
+    creatureRef.once("value").then(snapshot => {
+        const data = snapshot.val() || {};
+        allCreatures = Object.keys(data).map(id => data[id]);
+        renderAllCreatures();
+    });
+
+}
+
+// renders a list of creatures on the page
+function renderAllCreatures() {
+
+    $("#creature-list").empty();
+
+    allCreatures.forEach((cr, index) => {
+        addCreatureToDOM(cr);
+    });
+}
+
 // the main brain
 $("#crAdd").click(async function () {
 
@@ -110,8 +131,19 @@ $("#crAdd").click(async function () {
     // add creature to the page
     addCreatureToDOM(newCreature);
 
-    // save to the memory
+    // save creature to the memory 
     allCreatures.push(newCreature);
 
+    // save creature to the memory 
+    creatureRef.push(newCreature);
+
     // reset the form prepare for the next iteration
+});
+
+// load creatures when the button is clicked
+
+$("#btn-load").click(function () {
+
+    loadCreaturesFromDB();
+
 });
